@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+
+
+labels = '2020', '2040', '2030', '2050','2060','2070'
+sizes = [8500, 191000, 71000, 361000, 571000,812000]
+explode = (0.1, 0.1, 0.1, 0.1, 0.1, 0.1)  
+fig1, ax1 = plt.subplots()
+ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
+        shadow=True, startangle=90)
+ax1.axis('equal') 
+ax1.legend(loc='lower right', title='Years')
+plt.title('ICT Cyber Net Benefit, cumulative across time', fontsize=16,color='blue')
+plt.show()
