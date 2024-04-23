@@ -1,2 +1,2 @@
-# python-data-visualization
-#Forecast of infrastructure from 2020 to 2070
+#Visualizing infrastructure forecasts from 2020 to 2070 using Python.
+Utilizing the power of Python's NumPy, Pandas, and Matplotlib libraries, this project delves into forecasting infrastructure trends spanning the years 2020 to 2070. Developed as part of coursework offered by the American Center Tashkent, the project employs data visualization techniques to provide insights into future infrastructure development.
